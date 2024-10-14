@@ -1,6 +1,9 @@
 # Bin2Hex
 Java command line utility that transforms a binary file into Intel Hex format.
 
+## Download:
+Stable versions of the executable jar can be found in de download folder.
+
 ## Development:
 The project was developed using:
 * openjdk 11.0.16.1
