@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.github.hanwelmer.Bin2Hex.Bin2HexTest" time="0.002" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.github.hanwelmer.Bin2Hex.Bin2HexTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
@@ -28,9 +28,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 11"/>
-    <property name="classworlds.conf" value="C:\Users\welmerhj\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4422336881154708132.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\welmerhj\workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8139805683107181451.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/java/jre/bin/server;C:/Program Files/java/jre/bin;C:/Program Files/java/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\dev\jdk-11.0.2\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\node-v14.15.1-win-x64;C:\Program Files\SlikSvn\bin;C:\PROGRA~1\APACHE~1.3\bin;C:\Program Files\dotnet\;C:\oracle\instantclient_21_3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\netCDF 4.9.2\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Git-2.21.0\cmd;C:\Users\welmerhj\scoop\apps\openjdk11\current\bin;C:\Users\welmerhj\scoop\shims;C:\Users\welmerhj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;C:\Users\welmerhj\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\system32;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/java/jre/bin/server;C:/Program Files/java/jre/bin;C:/Program Files/java/jre/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\dev\jdk-11.0.2\bin;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\node-v14.15.1-win-x64;C:\Program Files\SlikSvn\bin;C:\PROGRA~1\APACHE~1.3\bin;C:\Program Files\dotnet\;C:\oracle\instantclient_21_3;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\GitExtensions\;C:\Program Files\netCDF 4.9.2\bin;C:\Program Files\PuTTY\;C:\Program Files\PostgreSQL\14\bin;C:\Program Files\PowerShell\7\;C:\Program Files\Git-2.21.0\cmd;C:\Users\welmerhj\scoop\apps\openjdk11\current\bin;C:\Users\welmerhj\scoop\shims;C:\Users\welmerhj\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.3.2\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2\bin;C:\Users\welmerhj\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\WINDOWS\System32;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -64,5 +64,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.github.hanwelmer.Bin2Hex.Bin2HexTest" name="testApp" time="0.002"/>
+  <testcase classname="com.github.hanwelmer.Bin2Hex.Bin2HexTest" name="testUsage" time="0.003"/>
 </testsuite>
