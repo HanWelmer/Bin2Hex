@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.github.hanwelmer.Bin2Hex.Bin2HexTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.037 s <<< FAILURE! - in com.github.hanwelmer.Bin2Hex.Bin2HexTest
-testUsage(com.github.hanwelmer.Bin2Hex.Bin2HexTest)  Time elapsed: 0.008 s  <<< ERROR!
-java.lang.NullPointerException
-	at com.github.hanwelmer.Bin2Hex.Bin2HexTest.testUsage(Bin2HexTest.java:27)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.045 s - in com.github.hanwelmer.Bin2Hex.Bin2HexTest
