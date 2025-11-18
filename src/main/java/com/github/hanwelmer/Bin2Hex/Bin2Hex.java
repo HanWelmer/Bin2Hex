@@ -51,10 +51,9 @@ public class Bin2Hex {
     System.out.println("Usage: java -jar Bin2Hex.jar filename.ext");
     System.out.println(" where filename.ext is file to be converted to Intel Hex.");
     System.out.println(" Output file has same filename but extension .hex");
-    System.exit(1);
   }
 
-  private static void bin2Hex(String fileName) {
+  protected static void bin2Hex(String fileName) {
 
     File inputFile = new File(fileName);
     File outputFile = new File(setExtension(fileName));

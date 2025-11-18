@@ -22,29 +22,9 @@ public class Bin2HexTest {
     // Tell Java to use your special stream
     System.setOut(ps);
 
-    // Set up SecurityManager to catch the exit(1).
-    System.setSecurityManager(new SecurityManager() {
-      @Override
-      public void checkExit(int status) {
-        super.checkExit(status);
-        if (status != 0) {
-          throw new SecurityException("Intercepted exit with status: " + status);
-        }
-      }
-
-      @Override
-      public void checkPermission(java.security.Permission perm) {
-        // Allow other permissions
-      }
-    });
-
-    try {
-      // Do the test, with System.out redirected to our ps PrintStream.
-      String[] args = { "", "" };
-      Bin2Hex.main(args);
-    } catch (SecurityException e) {
-      System.out.println("Caught exit: " + e.getMessage());
-    }
+    // Do the test, with System.out redirected to our ps PrintStream.
+    String[] args = { "", "" };
+    Bin2Hex.main(args);
 
     // Put things back
     System.out.flush();
