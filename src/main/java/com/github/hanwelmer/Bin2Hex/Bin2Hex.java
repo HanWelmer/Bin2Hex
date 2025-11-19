@@ -64,7 +64,7 @@ public class Bin2Hex {
       int address = 0;
       int checkSum = 0;
       byte maxRecordSize = 16;
-      ArrayList<Byte> record = new ArrayList(maxRecordSize);
+      ArrayList<Byte> record = new ArrayList<Byte>(maxRecordSize);
       Byte nextByte = null;
       while ((nextValue = fis.read()) != -1) {
         nextByte = (byte) nextValue;
